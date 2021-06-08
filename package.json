@@ -11,6 +11,8 @@
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "element-ui": "^2.4.5",
+    "eslint": "^7.28.0",
+    "eslint-plugin-html": "^6.1.2",
     "vue": "^2.6.11",
     "vue-router": "^3.5.1"
   },
