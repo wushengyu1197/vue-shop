@@ -9,7 +9,7 @@
 
     <!--卡片视图-->
     <el-card>
-      <el-table :data="rightsList">
+      <el-table :data="rightsList" >
         <el-table-column type="index"label="#"></el-table-column>
         <el-table-column label="权限名称"prop="authName"></el-table-column>
         <el-table-column label="路径"prop="path"></el-table-column>
