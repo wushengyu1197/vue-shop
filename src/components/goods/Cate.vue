@@ -62,7 +62,7 @@
         <el-cascader :options="parentCateList"
                      :props="cascaderProps"
                      v-model="selectedKeys"
-                     @change="parentCateChanged" clearable change-on-select></el-cascader>
+                     @change="parentCateChanged" clearable props.checkStrictly></el-cascader>
       </el-form-item>
 
       </el-form>
